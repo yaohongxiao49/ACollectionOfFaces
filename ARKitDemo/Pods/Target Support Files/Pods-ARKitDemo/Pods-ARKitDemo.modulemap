@@ -1,0 +1,6 @@
+module Pods_ARKitDemo {
+  umbrella header "Pods-ARKitDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
