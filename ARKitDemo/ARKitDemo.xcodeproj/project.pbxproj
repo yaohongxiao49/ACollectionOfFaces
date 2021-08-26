@@ -7,109 +7,105 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8423A0F926B280470025BCAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423A0F826B280470025BCAD /* AppDelegate.swift */; };
-		8423A0FB26B280470025BCAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423A0FA26B280470025BCAD /* SceneDelegate.swift */; };
-		8423A0FD26B280470025BCAD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423A0FC26B280470025BCAD /* ContentView.swift */; };
-		8423A0FF26B2804A0025BCAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8423A0FE26B2804A0025BCAD /* Assets.xcassets */; };
-		8423A10226B2804A0025BCAD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8423A10126B2804A0025BCAD /* Preview Assets.xcassets */; };
-		8423A10526B2804A0025BCAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8423A10326B2804A0025BCAD /* LaunchScreen.storyboard */; };
-		8423A11026B2804A0025BCAD /* ARKitDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423A10F26B2804A0025BCAD /* ARKitDemoTests.swift */; };
-		8423A11B26B2804A0025BCAD /* ARKitDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423A11A26B2804A0025BCAD /* ARKitDemoUITests.swift */; };
-		8423A14526B2809B0025BCAD /* YXBaseNavigationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423A12A26B2809B0025BCAD /* YXBaseNavigationVC.swift */; };
-		8423A14626B2809B0025BCAD /* YXBaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423A12B26B2809B0025BCAD /* YXBaseVC.swift */; };
-		8423A14726B2809B0025BCAD /* YXBaseTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423A12C26B2809B0025BCAD /* YXBaseTabBar.swift */; };
-		8423A14826B2809B0025BCAD /* YXBaseTabBarItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423A12E26B2809B0025BCAD /* YXBaseTabBarItemModel.swift */; };
-		8423A14926B2809B0025BCAD /* YXBaseTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423A13026B2809B0025BCAD /* YXBaseTabBarView.swift */; };
-		8423A14A26B2809B0025BCAD /* YXBaseNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423A13126B2809B0025BCAD /* YXBaseNavigationView.swift */; };
-		8423A14B26B2809B0025BCAD /* YXBaseTabBarItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423A13226B2809B0025BCAD /* YXBaseTabBarItemView.swift */; };
-		8423A14D26B2809B0025BCAD /* YXAlertViewControllerFadeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423A13926B2809B0025BCAD /* YXAlertViewControllerFadeAnimation.swift */; };
-		8423A14E26B2809B0025BCAD /* YXAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423A13A26B2809B0025BCAD /* YXAlertViewController.swift */; };
-		8423A14F26B2809B0025BCAD /* YXAlertViewControllerBaseAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423A13B26B2809B0025BCAD /* YXAlertViewControllerBaseAnimation.swift */; };
-		8423A15026B2809B0025BCAD /* YXAlertViewControllerAutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423A13C26B2809B0025BCAD /* YXAlertViewControllerAutoLayout.swift */; };
-		8423A15126B2809B0025BCAD /* YXAlertViewControllerTransitionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423A13D26B2809B0025BCAD /* YXAlertViewControllerTransitionAnimation.swift */; };
-		8423A15226B2809B0025BCAD /* YXAlertViewControllerDropDownAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423A13E26B2809B0025BCAD /* YXAlertViewControllerDropDownAnimation.swift */; };
-		8423A15326B2809B0025BCAD /* YXAlertViewControllerScaleFadeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423A13F26B2809B0025BCAD /* YXAlertViewControllerScaleFadeAnimation.swift */; };
-		8423A15426B2809B0025BCAD /* YXSizeCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423A14226B2809B0025BCAD /* YXSizeCategory.swift */; };
-		8423A15526B2809B0025BCAD /* YXColorCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423A14426B2809B0025BCAD /* YXColorCategory.swift */; };
-		8423A15926B282690025BCAD /* YXWorldVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423A15826B282690025BCAD /* YXWorldVC.swift */; };
-		84E7124B26B2931000EDF32E /* YXWorldShip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E7124A26B2931000EDF32E /* YXWorldShip.swift */; };
-		84E7124D26B2933600EDF32E /* YXWorldBullet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E7124C26B2933600EDF32E /* YXWorldBullet.swift */; };
-		BB41A82CF23AADB87F5DAFD9 /* libPods-ARKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 333618BD31C5AA8B93F76749 /* libPods-ARKitDemo.a */; };
+		1B57492B9C89B17077E1D446 /* libPods-ARKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9597289B2EBB83F2679EC76A /* libPods-ARKitDemo.a */; };
+		84F948EA26D73328004FAD65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F948E926D73328004FAD65 /* AppDelegate.swift */; };
+		84F948EC26D73328004FAD65 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F948EB26D73328004FAD65 /* art.scnassets */; };
+		84F948F326D7332A004FAD65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F948F226D7332A004FAD65 /* Assets.xcassets */; };
+		84F948F626D7332A004FAD65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F948F426D7332A004FAD65 /* LaunchScreen.storyboard */; };
+		84F9490126D7332A004FAD65 /* ARKitDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9490026D7332A004FAD65 /* ARKitDemoTests.swift */; };
+		84F9490C26D7332A004FAD65 /* ARKitDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9490B26D7332A004FAD65 /* ARKitDemoUITests.swift */; };
+		84F9493826D73359004FAD65 /* YXBaseNavigationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9491B26D73358004FAD65 /* YXBaseNavigationVC.swift */; };
+		84F9493926D73359004FAD65 /* YXBaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9491C26D73358004FAD65 /* YXBaseVC.swift */; };
+		84F9493A26D73359004FAD65 /* YXBaseTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9491D26D73358004FAD65 /* YXBaseTabBar.swift */; };
+		84F9493B26D73359004FAD65 /* YXBaseTabBarItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9491F26D73358004FAD65 /* YXBaseTabBarItemModel.swift */; };
+		84F9493C26D73359004FAD65 /* YXBaseTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9492126D73358004FAD65 /* YXBaseTabBarView.swift */; };
+		84F9493D26D73359004FAD65 /* YXBaseNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9492226D73358004FAD65 /* YXBaseNavigationView.swift */; };
+		84F9493E26D73359004FAD65 /* YXBaseTabBarItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9492326D73358004FAD65 /* YXBaseTabBarItemView.swift */; };
+		84F9493F26D73359004FAD65 /* YXAlertViewControllerFadeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9492726D73358004FAD65 /* YXAlertViewControllerFadeAnimation.swift */; };
+		84F9494026D73359004FAD65 /* YXAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9492826D73358004FAD65 /* YXAlertViewController.swift */; };
+		84F9494126D73359004FAD65 /* YXAlertViewControllerBaseAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9492926D73358004FAD65 /* YXAlertViewControllerBaseAnimation.swift */; };
+		84F9494226D73359004FAD65 /* YXAlertViewControllerAutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9492A26D73358004FAD65 /* YXAlertViewControllerAutoLayout.swift */; };
+		84F9494326D73359004FAD65 /* YXAlertViewControllerTransitionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9492B26D73358004FAD65 /* YXAlertViewControllerTransitionAnimation.swift */; };
+		84F9494426D73359004FAD65 /* YXAlertViewControllerDropDownAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9492C26D73358004FAD65 /* YXAlertViewControllerDropDownAnimation.swift */; };
+		84F9494526D73359004FAD65 /* YXAlertViewControllerScaleFadeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9492D26D73358004FAD65 /* YXAlertViewControllerScaleFadeAnimation.swift */; };
+		84F9494626D73359004FAD65 /* YXSizeCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9493026D73358004FAD65 /* YXSizeCategory.swift */; };
+		84F9494726D73359004FAD65 /* YXColorCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9493226D73358004FAD65 /* YXColorCategory.swift */; };
+		84F9494826D73359004FAD65 /* YXWorldBullet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9493526D73359004FAD65 /* YXWorldBullet.swift */; };
+		84F9494926D73359004FAD65 /* YXWorldVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9493626D73359004FAD65 /* YXWorldVC.swift */; };
+		84F9494A26D73359004FAD65 /* YXWorldShip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9493726D73359004FAD65 /* YXWorldShip.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8423A10C26B2804A0025BCAD /* PBXContainerItemProxy */ = {
+		84F948FD26D7332A004FAD65 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8423A0ED26B280470025BCAD /* Project object */;
+			containerPortal = 84F948DE26D73328004FAD65 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8423A0F426B280470025BCAD;
+			remoteGlobalIDString = 84F948E526D73328004FAD65;
 			remoteInfo = ARKitDemo;
 		};
-		8423A11726B2804A0025BCAD /* PBXContainerItemProxy */ = {
+		84F9490826D7332A004FAD65 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8423A0ED26B280470025BCAD /* Project object */;
+			containerPortal = 84F948DE26D73328004FAD65 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8423A0F426B280470025BCAD;
+			remoteGlobalIDString = 84F948E526D73328004FAD65;
 			remoteInfo = ARKitDemo;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		333618BD31C5AA8B93F76749 /* libPods-ARKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ARKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8423A0F526B280470025BCAD /* ARKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8423A0F826B280470025BCAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8423A0FA26B280470025BCAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8423A0FC26B280470025BCAD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		8423A0FE26B2804A0025BCAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8423A10126B2804A0025BCAD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		8423A10426B2804A0025BCAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8423A10626B2804A0025BCAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8423A10B26B2804A0025BCAD /* ARKitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARKitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8423A10F26B2804A0025BCAD /* ARKitDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKitDemoTests.swift; sourceTree = "<group>"; };
-		8423A11126B2804A0025BCAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8423A11626B2804A0025BCAD /* ARKitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARKitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8423A11A26B2804A0025BCAD /* ARKitDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKitDemoUITests.swift; sourceTree = "<group>"; };
-		8423A11C26B2804A0025BCAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8423A12A26B2809B0025BCAD /* YXBaseNavigationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YXBaseNavigationVC.swift; sourceTree = "<group>"; };
-		8423A12B26B2809B0025BCAD /* YXBaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YXBaseVC.swift; sourceTree = "<group>"; };
-		8423A12C26B2809B0025BCAD /* YXBaseTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YXBaseTabBar.swift; sourceTree = "<group>"; };
-		8423A12E26B2809B0025BCAD /* YXBaseTabBarItemModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YXBaseTabBarItemModel.swift; sourceTree = "<group>"; };
-		8423A13026B2809B0025BCAD /* YXBaseTabBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YXBaseTabBarView.swift; sourceTree = "<group>"; };
-		8423A13126B2809B0025BCAD /* YXBaseNavigationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YXBaseNavigationView.swift; sourceTree = "<group>"; };
-		8423A13226B2809B0025BCAD /* YXBaseTabBarItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YXBaseTabBarItemView.swift; sourceTree = "<group>"; };
-		8423A13926B2809B0025BCAD /* YXAlertViewControllerFadeAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YXAlertViewControllerFadeAnimation.swift; sourceTree = "<group>"; };
-		8423A13A26B2809B0025BCAD /* YXAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YXAlertViewController.swift; sourceTree = "<group>"; };
-		8423A13B26B2809B0025BCAD /* YXAlertViewControllerBaseAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YXAlertViewControllerBaseAnimation.swift; sourceTree = "<group>"; };
-		8423A13C26B2809B0025BCAD /* YXAlertViewControllerAutoLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YXAlertViewControllerAutoLayout.swift; sourceTree = "<group>"; };
-		8423A13D26B2809B0025BCAD /* YXAlertViewControllerTransitionAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YXAlertViewControllerTransitionAnimation.swift; sourceTree = "<group>"; };
-		8423A13E26B2809B0025BCAD /* YXAlertViewControllerDropDownAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YXAlertViewControllerDropDownAnimation.swift; sourceTree = "<group>"; };
-		8423A13F26B2809B0025BCAD /* YXAlertViewControllerScaleFadeAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YXAlertViewControllerScaleFadeAnimation.swift; sourceTree = "<group>"; };
-		8423A14226B2809B0025BCAD /* YXSizeCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YXSizeCategory.swift; sourceTree = "<group>"; };
-		8423A14426B2809B0025BCAD /* YXColorCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YXColorCategory.swift; sourceTree = "<group>"; };
-		8423A15826B282690025BCAD /* YXWorldVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXWorldVC.swift; sourceTree = "<group>"; };
-		84E7124A26B2931000EDF32E /* YXWorldShip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXWorldShip.swift; sourceTree = "<group>"; };
-		84E7124C26B2933600EDF32E /* YXWorldBullet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXWorldBullet.swift; sourceTree = "<group>"; };
-		87BF32BB832D5D40888FA266 /* Pods-ARKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARKitDemo.release.xcconfig"; path = "Target Support Files/Pods-ARKitDemo/Pods-ARKitDemo.release.xcconfig"; sourceTree = "<group>"; };
-		CB5010492590C3400E711B98 /* Pods-ARKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARKitDemo.debug.xcconfig"; path = "Target Support Files/Pods-ARKitDemo/Pods-ARKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		409F5CCDD6F1910EACBFAD03 /* Pods-ARKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARKitDemo.release.xcconfig"; path = "Target Support Files/Pods-ARKitDemo/Pods-ARKitDemo.release.xcconfig"; sourceTree = "<group>"; };
+		57823DFF1D6F6A2B291E4B1D /* Pods-ARKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARKitDemo.debug.xcconfig"; path = "Target Support Files/Pods-ARKitDemo/Pods-ARKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		84F948E626D73328004FAD65 /* ARKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F948E926D73328004FAD65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84F948EB26D73328004FAD65 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		84F948F226D7332A004FAD65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84F948F526D7332A004FAD65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84F948F726D7332A004FAD65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F948FC26D7332A004FAD65 /* ARKitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARKitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F9490026D7332A004FAD65 /* ARKitDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKitDemoTests.swift; sourceTree = "<group>"; };
+		84F9490226D7332A004FAD65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F9490726D7332A004FAD65 /* ARKitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARKitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F9490B26D7332A004FAD65 /* ARKitDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKitDemoUITests.swift; sourceTree = "<group>"; };
+		84F9490D26D7332A004FAD65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F9491B26D73358004FAD65 /* YXBaseNavigationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YXBaseNavigationVC.swift; sourceTree = "<group>"; };
+		84F9491C26D73358004FAD65 /* YXBaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YXBaseVC.swift; sourceTree = "<group>"; };
+		84F9491D26D73358004FAD65 /* YXBaseTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YXBaseTabBar.swift; sourceTree = "<group>"; };
+		84F9491F26D73358004FAD65 /* YXBaseTabBarItemModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YXBaseTabBarItemModel.swift; sourceTree = "<group>"; };
+		84F9492126D73358004FAD65 /* YXBaseTabBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YXBaseTabBarView.swift; sourceTree = "<group>"; };
+		84F9492226D73358004FAD65 /* YXBaseNavigationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YXBaseNavigationView.swift; sourceTree = "<group>"; };
+		84F9492326D73358004FAD65 /* YXBaseTabBarItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YXBaseTabBarItemView.swift; sourceTree = "<group>"; };
+		84F9492726D73358004FAD65 /* YXAlertViewControllerFadeAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YXAlertViewControllerFadeAnimation.swift; sourceTree = "<group>"; };
+		84F9492826D73358004FAD65 /* YXAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YXAlertViewController.swift; sourceTree = "<group>"; };
+		84F9492926D73358004FAD65 /* YXAlertViewControllerBaseAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YXAlertViewControllerBaseAnimation.swift; sourceTree = "<group>"; };
+		84F9492A26D73358004FAD65 /* YXAlertViewControllerAutoLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YXAlertViewControllerAutoLayout.swift; sourceTree = "<group>"; };
+		84F9492B26D73358004FAD65 /* YXAlertViewControllerTransitionAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YXAlertViewControllerTransitionAnimation.swift; sourceTree = "<group>"; };
+		84F9492C26D73358004FAD65 /* YXAlertViewControllerDropDownAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YXAlertViewControllerDropDownAnimation.swift; sourceTree = "<group>"; };
+		84F9492D26D73358004FAD65 /* YXAlertViewControllerScaleFadeAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YXAlertViewControllerScaleFadeAnimation.swift; sourceTree = "<group>"; };
+		84F9493026D73358004FAD65 /* YXSizeCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YXSizeCategory.swift; sourceTree = "<group>"; };
+		84F9493226D73358004FAD65 /* YXColorCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YXColorCategory.swift; sourceTree = "<group>"; };
+		84F9493526D73359004FAD65 /* YXWorldBullet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YXWorldBullet.swift; sourceTree = "<group>"; };
+		84F9493626D73359004FAD65 /* YXWorldVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YXWorldVC.swift; sourceTree = "<group>"; };
+		84F9493726D73359004FAD65 /* YXWorldShip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YXWorldShip.swift; sourceTree = "<group>"; };
+		9597289B2EBB83F2679EC76A /* libPods-ARKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ARKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8423A0F226B280470025BCAD /* Frameworks */ = {
+		84F948E326D73328004FAD65 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB41A82CF23AADB87F5DAFD9 /* libPods-ARKitDemo.a in Frameworks */,
+				1B57492B9C89B17077E1D446 /* libPods-ARKitDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8423A10826B2804A0025BCAD /* Frameworks */ = {
+		84F948F926D7332A004FAD65 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8423A11326B2804A0025BCAD /* Frameworks */ = {
+		84F9490426D7332A004FAD65 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -119,219 +115,209 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		06B5C127CD67AA23FF5A5B38 /* Frameworks */ = {
+		69E3289EFF770D029555E77C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				333618BD31C5AA8B93F76749 /* libPods-ARKitDemo.a */,
+				57823DFF1D6F6A2B291E4B1D /* Pods-ARKitDemo.debug.xcconfig */,
+				409F5CCDD6F1910EACBFAD03 /* Pods-ARKitDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7B1BB20B795ADC4D0CFF5CB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9597289B2EBB83F2679EC76A /* libPods-ARKitDemo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		8423A0EC26B280470025BCAD = {
+		84F948DD26D73328004FAD65 = {
 			isa = PBXGroup;
 			children = (
-				8423A0F726B280470025BCAD /* ARKitDemo */,
-				8423A10E26B2804A0025BCAD /* ARKitDemoTests */,
-				8423A11926B2804A0025BCAD /* ARKitDemoUITests */,
-				8423A0F626B280470025BCAD /* Products */,
-				DBFB9970C05BC5FE5DD4A4B0 /* Pods */,
-				06B5C127CD67AA23FF5A5B38 /* Frameworks */,
+				84F948E826D73328004FAD65 /* ARKitDemo */,
+				84F948FF26D7332A004FAD65 /* ARKitDemoTests */,
+				84F9490A26D7332A004FAD65 /* ARKitDemoUITests */,
+				84F948E726D73328004FAD65 /* Products */,
+				69E3289EFF770D029555E77C /* Pods */,
+				7B1BB20B795ADC4D0CFF5CB5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		8423A0F626B280470025BCAD /* Products */ = {
+		84F948E726D73328004FAD65 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8423A0F526B280470025BCAD /* ARKitDemo.app */,
-				8423A10B26B2804A0025BCAD /* ARKitDemoTests.xctest */,
-				8423A11626B2804A0025BCAD /* ARKitDemoUITests.xctest */,
+				84F948E626D73328004FAD65 /* ARKitDemo.app */,
+				84F948FC26D7332A004FAD65 /* ARKitDemoTests.xctest */,
+				84F9490726D7332A004FAD65 /* ARKitDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8423A0F726B280470025BCAD /* ARKitDemo */ = {
+		84F948E826D73328004FAD65 /* ARKitDemo */ = {
 			isa = PBXGroup;
 			children = (
-				8423A12826B2809B0025BCAD /* Base */,
-				8423A13626B2809B0025BCAD /* Common */,
-				8423A13326B2809B0025BCAD /* WorldModule */,
-				84E7124E26B2983100EDF32E /* FaceModule */,
-				8423A0F826B280470025BCAD /* AppDelegate.swift */,
-				8423A0FA26B280470025BCAD /* SceneDelegate.swift */,
-				8423A0FC26B280470025BCAD /* ContentView.swift */,
-				8423A0FE26B2804A0025BCAD /* Assets.xcassets */,
-				8423A10326B2804A0025BCAD /* LaunchScreen.storyboard */,
-				8423A10626B2804A0025BCAD /* Info.plist */,
-				8423A10026B2804A0025BCAD /* Preview Content */,
+				84F9491926D73358004FAD65 /* Base */,
+				84F9492426D73358004FAD65 /* Common */,
+				84F9493326D73359004FAD65 /* WorldModule */,
+				84F9494B26D7336C004FAD65 /* FaceModule */,
+				84F948E926D73328004FAD65 /* AppDelegate.swift */,
+				84F948EB26D73328004FAD65 /* art.scnassets */,
+				84F948F226D7332A004FAD65 /* Assets.xcassets */,
+				84F948F426D7332A004FAD65 /* LaunchScreen.storyboard */,
+				84F948F726D7332A004FAD65 /* Info.plist */,
 			);
 			path = ARKitDemo;
 			sourceTree = "<group>";
 		};
-		8423A10026B2804A0025BCAD /* Preview Content */ = {
+		84F948FF26D7332A004FAD65 /* ARKitDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				8423A10126B2804A0025BCAD /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		8423A10E26B2804A0025BCAD /* ARKitDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				8423A10F26B2804A0025BCAD /* ARKitDemoTests.swift */,
-				8423A11126B2804A0025BCAD /* Info.plist */,
+				84F9490026D7332A004FAD65 /* ARKitDemoTests.swift */,
+				84F9490226D7332A004FAD65 /* Info.plist */,
 			);
 			path = ARKitDemoTests;
 			sourceTree = "<group>";
 		};
-		8423A11926B2804A0025BCAD /* ARKitDemoUITests */ = {
+		84F9490A26D7332A004FAD65 /* ARKitDemoUITests */ = {
 			isa = PBXGroup;
 			children = (
-				8423A11A26B2804A0025BCAD /* ARKitDemoUITests.swift */,
-				8423A11C26B2804A0025BCAD /* Info.plist */,
+				84F9490B26D7332A004FAD65 /* ARKitDemoUITests.swift */,
+				84F9490D26D7332A004FAD65 /* Info.plist */,
 			);
 			path = ARKitDemoUITests;
 			sourceTree = "<group>";
 		};
-		8423A12826B2809B0025BCAD /* Base */ = {
+		84F9491926D73358004FAD65 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				8423A12926B2809B0025BCAD /* Controller */,
-				8423A12D26B2809B0025BCAD /* Model */,
-				8423A12F26B2809B0025BCAD /* View */,
+				84F9491A26D73358004FAD65 /* Controller */,
+				84F9491E26D73358004FAD65 /* Model */,
+				84F9492026D73358004FAD65 /* View */,
 			);
 			path = Base;
 			sourceTree = "<group>";
 		};
-		8423A12926B2809B0025BCAD /* Controller */ = {
+		84F9491A26D73358004FAD65 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				8423A12A26B2809B0025BCAD /* YXBaseNavigationVC.swift */,
-				8423A12C26B2809B0025BCAD /* YXBaseTabBar.swift */,
-				8423A12B26B2809B0025BCAD /* YXBaseVC.swift */,
+				84F9491B26D73358004FAD65 /* YXBaseNavigationVC.swift */,
+				84F9491D26D73358004FAD65 /* YXBaseTabBar.swift */,
+				84F9491C26D73358004FAD65 /* YXBaseVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		8423A12D26B2809B0025BCAD /* Model */ = {
+		84F9491E26D73358004FAD65 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				8423A12E26B2809B0025BCAD /* YXBaseTabBarItemModel.swift */,
+				84F9491F26D73358004FAD65 /* YXBaseTabBarItemModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		8423A12F26B2809B0025BCAD /* View */ = {
+		84F9492026D73358004FAD65 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				8423A13126B2809B0025BCAD /* YXBaseNavigationView.swift */,
-				8423A13226B2809B0025BCAD /* YXBaseTabBarItemView.swift */,
-				8423A13026B2809B0025BCAD /* YXBaseTabBarView.swift */,
+				84F9492226D73358004FAD65 /* YXBaseNavigationView.swift */,
+				84F9492326D73358004FAD65 /* YXBaseTabBarItemView.swift */,
+				84F9492126D73358004FAD65 /* YXBaseTabBarView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		8423A13326B2809B0025BCAD /* WorldModule */ = {
+		84F9492426D73358004FAD65 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				8423A13426B2809B0025BCAD /* Controller */,
-			);
-			path = WorldModule;
-			sourceTree = "<group>";
-		};
-		8423A13426B2809B0025BCAD /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				8423A15826B282690025BCAD /* YXWorldVC.swift */,
-				84E7124A26B2931000EDF32E /* YXWorldShip.swift */,
-				84E7124C26B2933600EDF32E /* YXWorldBullet.swift */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		8423A13626B2809B0025BCAD /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				8423A13726B2809B0025BCAD /* YXTools */,
-				8423A14026B2809B0025BCAD /* YXCategorys */,
+				84F9492526D73358004FAD65 /* YXTools */,
+				84F9492E26D73358004FAD65 /* YXCategorys */,
 			);
 			path = Common;
 			sourceTree = "<group>";
 		};
-		8423A13726B2809B0025BCAD /* YXTools */ = {
+		84F9492526D73358004FAD65 /* YXTools */ = {
 			isa = PBXGroup;
 			children = (
-				8423A13826B2809B0025BCAD /* YXAlertViewController */,
+				84F9492626D73358004FAD65 /* YXAlertViewController */,
 			);
 			path = YXTools;
 			sourceTree = "<group>";
 		};
-		8423A13826B2809B0025BCAD /* YXAlertViewController */ = {
+		84F9492626D73358004FAD65 /* YXAlertViewController */ = {
 			isa = PBXGroup;
 			children = (
-				8423A13A26B2809B0025BCAD /* YXAlertViewController.swift */,
-				8423A13C26B2809B0025BCAD /* YXAlertViewControllerAutoLayout.swift */,
-				8423A13B26B2809B0025BCAD /* YXAlertViewControllerBaseAnimation.swift */,
-				8423A13E26B2809B0025BCAD /* YXAlertViewControllerDropDownAnimation.swift */,
-				8423A13926B2809B0025BCAD /* YXAlertViewControllerFadeAnimation.swift */,
-				8423A13F26B2809B0025BCAD /* YXAlertViewControllerScaleFadeAnimation.swift */,
-				8423A13D26B2809B0025BCAD /* YXAlertViewControllerTransitionAnimation.swift */,
+				84F9492826D73358004FAD65 /* YXAlertViewController.swift */,
+				84F9492A26D73358004FAD65 /* YXAlertViewControllerAutoLayout.swift */,
+				84F9492926D73358004FAD65 /* YXAlertViewControllerBaseAnimation.swift */,
+				84F9492C26D73358004FAD65 /* YXAlertViewControllerDropDownAnimation.swift */,
+				84F9492726D73358004FAD65 /* YXAlertViewControllerFadeAnimation.swift */,
+				84F9492D26D73358004FAD65 /* YXAlertViewControllerScaleFadeAnimation.swift */,
+				84F9492B26D73358004FAD65 /* YXAlertViewControllerTransitionAnimation.swift */,
 			);
 			path = YXAlertViewController;
 			sourceTree = "<group>";
 		};
-		8423A14026B2809B0025BCAD /* YXCategorys */ = {
+		84F9492E26D73358004FAD65 /* YXCategorys */ = {
 			isa = PBXGroup;
 			children = (
-				8423A14126B2809B0025BCAD /* YXCategoryNSObject */,
-				8423A14326B2809B0025BCAD /* YXCategoryColor */,
+				84F9492F26D73358004FAD65 /* YXCategoryNSObject */,
+				84F9493126D73358004FAD65 /* YXCategoryColor */,
 			);
 			path = YXCategorys;
 			sourceTree = "<group>";
 		};
-		8423A14126B2809B0025BCAD /* YXCategoryNSObject */ = {
+		84F9492F26D73358004FAD65 /* YXCategoryNSObject */ = {
 			isa = PBXGroup;
 			children = (
-				8423A14226B2809B0025BCAD /* YXSizeCategory.swift */,
+				84F9493026D73358004FAD65 /* YXSizeCategory.swift */,
 			);
 			path = YXCategoryNSObject;
 			sourceTree = "<group>";
 		};
-		8423A14326B2809B0025BCAD /* YXCategoryColor */ = {
+		84F9493126D73358004FAD65 /* YXCategoryColor */ = {
 			isa = PBXGroup;
 			children = (
-				8423A14426B2809B0025BCAD /* YXColorCategory.swift */,
+				84F9493226D73358004FAD65 /* YXColorCategory.swift */,
 			);
 			path = YXCategoryColor;
 			sourceTree = "<group>";
 		};
-		84E7124E26B2983100EDF32E /* FaceModule */ = {
+		84F9493326D73359004FAD65 /* WorldModule */ = {
+			isa = PBXGroup;
+			children = (
+				84F9493426D73359004FAD65 /* Controller */,
+			);
+			path = WorldModule;
+			sourceTree = "<group>";
+		};
+		84F9493426D73359004FAD65 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84F9493626D73359004FAD65 /* YXWorldVC.swift */,
+				84F9493526D73359004FAD65 /* YXWorldBullet.swift */,
+				84F9493726D73359004FAD65 /* YXWorldShip.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		84F9494B26D7336C004FAD65 /* FaceModule */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = FaceModule;
 			sourceTree = "<group>";
 		};
-		DBFB9970C05BC5FE5DD4A4B0 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				CB5010492590C3400E711B98 /* Pods-ARKitDemo.debug.xcconfig */,
-				87BF32BB832D5D40888FA266 /* Pods-ARKitDemo.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8423A0F426B280470025BCAD /* ARKitDemo */ = {
+		84F948E526D73328004FAD65 /* ARKitDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8423A11F26B2804A0025BCAD /* Build configuration list for PBXNativeTarget "ARKitDemo" */;
+			buildConfigurationList = 84F9491026D7332A004FAD65 /* Build configuration list for PBXNativeTarget "ARKitDemo" */;
 			buildPhases = (
-				9D54B1F9EF6A66B01A28E643 /* [CP] Check Pods Manifest.lock */,
-				8423A0F126B280470025BCAD /* Sources */,
-				8423A0F226B280470025BCAD /* Frameworks */,
-				8423A0F326B280470025BCAD /* Resources */,
+				C231F20B78574F783FE2003C /* [CP] Check Pods Manifest.lock */,
+				84F948E226D73328004FAD65 /* Sources */,
+				84F948E326D73328004FAD65 /* Frameworks */,
+				84F948E426D73328004FAD65 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -339,68 +325,68 @@
 			);
 			name = ARKitDemo;
 			productName = ARKitDemo;
-			productReference = 8423A0F526B280470025BCAD /* ARKitDemo.app */;
+			productReference = 84F948E626D73328004FAD65 /* ARKitDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8423A10A26B2804A0025BCAD /* ARKitDemoTests */ = {
+		84F948FB26D7332A004FAD65 /* ARKitDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8423A12226B2804A0025BCAD /* Build configuration list for PBXNativeTarget "ARKitDemoTests" */;
+			buildConfigurationList = 84F9491326D7332A004FAD65 /* Build configuration list for PBXNativeTarget "ARKitDemoTests" */;
 			buildPhases = (
-				8423A10726B2804A0025BCAD /* Sources */,
-				8423A10826B2804A0025BCAD /* Frameworks */,
-				8423A10926B2804A0025BCAD /* Resources */,
+				84F948F826D7332A004FAD65 /* Sources */,
+				84F948F926D7332A004FAD65 /* Frameworks */,
+				84F948FA26D7332A004FAD65 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8423A10D26B2804A0025BCAD /* PBXTargetDependency */,
+				84F948FE26D7332A004FAD65 /* PBXTargetDependency */,
 			);
 			name = ARKitDemoTests;
 			productName = ARKitDemoTests;
-			productReference = 8423A10B26B2804A0025BCAD /* ARKitDemoTests.xctest */;
+			productReference = 84F948FC26D7332A004FAD65 /* ARKitDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		8423A11526B2804A0025BCAD /* ARKitDemoUITests */ = {
+		84F9490626D7332A004FAD65 /* ARKitDemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8423A12526B2804A0025BCAD /* Build configuration list for PBXNativeTarget "ARKitDemoUITests" */;
+			buildConfigurationList = 84F9491626D7332A004FAD65 /* Build configuration list for PBXNativeTarget "ARKitDemoUITests" */;
 			buildPhases = (
-				8423A11226B2804A0025BCAD /* Sources */,
-				8423A11326B2804A0025BCAD /* Frameworks */,
-				8423A11426B2804A0025BCAD /* Resources */,
+				84F9490326D7332A004FAD65 /* Sources */,
+				84F9490426D7332A004FAD65 /* Frameworks */,
+				84F9490526D7332A004FAD65 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8423A11826B2804A0025BCAD /* PBXTargetDependency */,
+				84F9490926D7332A004FAD65 /* PBXTargetDependency */,
 			);
 			name = ARKitDemoUITests;
 			productName = ARKitDemoUITests;
-			productReference = 8423A11626B2804A0025BCAD /* ARKitDemoUITests.xctest */;
+			productReference = 84F9490726D7332A004FAD65 /* ARKitDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8423A0ED26B280470025BCAD /* Project object */ = {
+		84F948DE26D73328004FAD65 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					8423A0F426B280470025BCAD = {
+					84F948E526D73328004FAD65 = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
-					8423A10A26B2804A0025BCAD = {
+					84F948FB26D7332A004FAD65 = {
 						CreatedOnToolsVersion = 12.5.1;
-						TestTargetID = 8423A0F426B280470025BCAD;
+						TestTargetID = 84F948E526D73328004FAD65;
 					};
-					8423A11526B2804A0025BCAD = {
+					84F9490626D7332A004FAD65 = {
 						CreatedOnToolsVersion = 12.5.1;
-						TestTargetID = 8423A0F426B280470025BCAD;
+						TestTargetID = 84F948E526D73328004FAD65;
 					};
 				};
 			};
-			buildConfigurationList = 8423A0F026B280470025BCAD /* Build configuration list for PBXProject "ARKitDemo" */;
+			buildConfigurationList = 84F948E126D73328004FAD65 /* Build configuration list for PBXProject "ARKitDemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -408,37 +394,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 8423A0EC26B280470025BCAD;
-			productRefGroup = 8423A0F626B280470025BCAD /* Products */;
+			mainGroup = 84F948DD26D73328004FAD65;
+			productRefGroup = 84F948E726D73328004FAD65 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8423A0F426B280470025BCAD /* ARKitDemo */,
-				8423A10A26B2804A0025BCAD /* ARKitDemoTests */,
-				8423A11526B2804A0025BCAD /* ARKitDemoUITests */,
+				84F948E526D73328004FAD65 /* ARKitDemo */,
+				84F948FB26D7332A004FAD65 /* ARKitDemoTests */,
+				84F9490626D7332A004FAD65 /* ARKitDemoUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8423A0F326B280470025BCAD /* Resources */ = {
+		84F948E426D73328004FAD65 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8423A10526B2804A0025BCAD /* LaunchScreen.storyboard in Resources */,
-				8423A10226B2804A0025BCAD /* Preview Assets.xcassets in Resources */,
-				8423A0FF26B2804A0025BCAD /* Assets.xcassets in Resources */,
+				84F948EC26D73328004FAD65 /* art.scnassets in Resources */,
+				84F948F626D7332A004FAD65 /* LaunchScreen.storyboard in Resources */,
+				84F948F326D7332A004FAD65 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8423A10926B2804A0025BCAD /* Resources */ = {
+		84F948FA26D7332A004FAD65 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8423A11426B2804A0025BCAD /* Resources */ = {
+		84F9490526D7332A004FAD65 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -448,7 +434,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		9D54B1F9EF6A66B01A28E643 /* [CP] Check Pods Manifest.lock */ = {
+		C231F20B78574F783FE2003C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -473,71 +459,69 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8423A0F126B280470025BCAD /* Sources */ = {
+		84F948E226D73328004FAD65 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8423A14626B2809B0025BCAD /* YXBaseVC.swift in Sources */,
-				8423A14B26B2809B0025BCAD /* YXBaseTabBarItemView.swift in Sources */,
-				8423A15926B282690025BCAD /* YXWorldVC.swift in Sources */,
-				8423A14826B2809B0025BCAD /* YXBaseTabBarItemModel.swift in Sources */,
-				8423A14D26B2809B0025BCAD /* YXAlertViewControllerFadeAnimation.swift in Sources */,
-				8423A14726B2809B0025BCAD /* YXBaseTabBar.swift in Sources */,
-				8423A14526B2809B0025BCAD /* YXBaseNavigationVC.swift in Sources */,
-				8423A14F26B2809B0025BCAD /* YXAlertViewControllerBaseAnimation.swift in Sources */,
-				8423A14E26B2809B0025BCAD /* YXAlertViewController.swift in Sources */,
-				8423A15226B2809B0025BCAD /* YXAlertViewControllerDropDownAnimation.swift in Sources */,
-				8423A14926B2809B0025BCAD /* YXBaseTabBarView.swift in Sources */,
-				8423A15526B2809B0025BCAD /* YXColorCategory.swift in Sources */,
-				8423A15326B2809B0025BCAD /* YXAlertViewControllerScaleFadeAnimation.swift in Sources */,
-				8423A14A26B2809B0025BCAD /* YXBaseNavigationView.swift in Sources */,
-				8423A0F926B280470025BCAD /* AppDelegate.swift in Sources */,
-				8423A15126B2809B0025BCAD /* YXAlertViewControllerTransitionAnimation.swift in Sources */,
-				84E7124B26B2931000EDF32E /* YXWorldShip.swift in Sources */,
-				84E7124D26B2933600EDF32E /* YXWorldBullet.swift in Sources */,
-				8423A0FB26B280470025BCAD /* SceneDelegate.swift in Sources */,
-				8423A0FD26B280470025BCAD /* ContentView.swift in Sources */,
-				8423A15426B2809B0025BCAD /* YXSizeCategory.swift in Sources */,
-				8423A15026B2809B0025BCAD /* YXAlertViewControllerAutoLayout.swift in Sources */,
+				84F9494026D73359004FAD65 /* YXAlertViewController.swift in Sources */,
+				84F9493A26D73359004FAD65 /* YXBaseTabBar.swift in Sources */,
+				84F948EA26D73328004FAD65 /* AppDelegate.swift in Sources */,
+				84F9493C26D73359004FAD65 /* YXBaseTabBarView.swift in Sources */,
+				84F9493E26D73359004FAD65 /* YXBaseTabBarItemView.swift in Sources */,
+				84F9493D26D73359004FAD65 /* YXBaseNavigationView.swift in Sources */,
+				84F9494826D73359004FAD65 /* YXWorldBullet.swift in Sources */,
+				84F9493926D73359004FAD65 /* YXBaseVC.swift in Sources */,
+				84F9494A26D73359004FAD65 /* YXWorldShip.swift in Sources */,
+				84F9494526D73359004FAD65 /* YXAlertViewControllerScaleFadeAnimation.swift in Sources */,
+				84F9494326D73359004FAD65 /* YXAlertViewControllerTransitionAnimation.swift in Sources */,
+				84F9493F26D73359004FAD65 /* YXAlertViewControllerFadeAnimation.swift in Sources */,
+				84F9494926D73359004FAD65 /* YXWorldVC.swift in Sources */,
+				84F9494626D73359004FAD65 /* YXSizeCategory.swift in Sources */,
+				84F9494726D73359004FAD65 /* YXColorCategory.swift in Sources */,
+				84F9494426D73359004FAD65 /* YXAlertViewControllerDropDownAnimation.swift in Sources */,
+				84F9493B26D73359004FAD65 /* YXBaseTabBarItemModel.swift in Sources */,
+				84F9494126D73359004FAD65 /* YXAlertViewControllerBaseAnimation.swift in Sources */,
+				84F9494226D73359004FAD65 /* YXAlertViewControllerAutoLayout.swift in Sources */,
+				84F9493826D73359004FAD65 /* YXBaseNavigationVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8423A10726B2804A0025BCAD /* Sources */ = {
+		84F948F826D7332A004FAD65 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8423A11026B2804A0025BCAD /* ARKitDemoTests.swift in Sources */,
+				84F9490126D7332A004FAD65 /* ARKitDemoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8423A11226B2804A0025BCAD /* Sources */ = {
+		84F9490326D7332A004FAD65 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8423A11B26B2804A0025BCAD /* ARKitDemoUITests.swift in Sources */,
+				84F9490C26D7332A004FAD65 /* ARKitDemoUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8423A10D26B2804A0025BCAD /* PBXTargetDependency */ = {
+		84F948FE26D7332A004FAD65 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8423A0F426B280470025BCAD /* ARKitDemo */;
-			targetProxy = 8423A10C26B2804A0025BCAD /* PBXContainerItemProxy */;
+			target = 84F948E526D73328004FAD65 /* ARKitDemo */;
+			targetProxy = 84F948FD26D7332A004FAD65 /* PBXContainerItemProxy */;
 		};
-		8423A11826B2804A0025BCAD /* PBXTargetDependency */ = {
+		84F9490926D7332A004FAD65 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8423A0F426B280470025BCAD /* ARKitDemo */;
-			targetProxy = 8423A11726B2804A0025BCAD /* PBXContainerItemProxy */;
+			target = 84F948E526D73328004FAD65 /* ARKitDemo */;
+			targetProxy = 84F9490826D7332A004FAD65 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8423A10326B2804A0025BCAD /* LaunchScreen.storyboard */ = {
+		84F948F426D7332A004FAD65 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8423A10426B2804A0025BCAD /* Base */,
+				84F948F526D7332A004FAD65 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -545,7 +529,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		8423A11D26B2804A0025BCAD /* Debug */ = {
+		84F9490E26D7332A004FAD65 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -606,7 +590,7 @@
 			};
 			name = Debug;
 		};
-		8423A11E26B2804A0025BCAD /* Release */ = {
+		84F9490F26D7332A004FAD65 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -661,16 +645,14 @@
 			};
 			name = Release;
 		};
-		8423A12026B2804A0025BCAD /* Debug */ = {
+		84F9491126D7332A004FAD65 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB5010492590C3400E711B98 /* Pods-ARKitDemo.debug.xcconfig */;
+			baseConfigurationReference = 57823DFF1D6F6A2B291E4B1D /* Pods-ARKitDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"ARKitDemo/Preview Content\"";
 				DEVELOPMENT_TEAM = 2HSQ24Z864;
-				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ARKitDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -680,20 +662,18 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yhx.ARKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		8423A12126B2804A0025BCAD /* Release */ = {
+		84F9491226D7332A004FAD65 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 87BF32BB832D5D40888FA266 /* Pods-ARKitDemo.release.xcconfig */;
+			baseConfigurationReference = 409F5CCDD6F1910EACBFAD03 /* Pods-ARKitDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"ARKitDemo/Preview Content\"";
 				DEVELOPMENT_TEAM = 2HSQ24Z864;
-				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ARKitDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -703,11 +683,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yhx.ARKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
-		8423A12326B2804A0025BCAD /* Debug */ = {
+		84F9491426D7332A004FAD65 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -728,7 +708,7 @@
 			};
 			name = Debug;
 		};
-		8423A12426B2804A0025BCAD /* Release */ = {
+		84F9491526D7332A004FAD65 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -749,7 +729,7 @@
 			};
 			name = Release;
 		};
-		8423A12626B2804A0025BCAD /* Debug */ = {
+		84F9491726D7332A004FAD65 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -768,7 +748,7 @@
 			};
 			name = Debug;
 		};
-		8423A12726B2804A0025BCAD /* Release */ = {
+		84F9491826D7332A004FAD65 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -790,43 +770,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8423A0F026B280470025BCAD /* Build configuration list for PBXProject "ARKitDemo" */ = {
+		84F948E126D73328004FAD65 /* Build configuration list for PBXProject "ARKitDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8423A11D26B2804A0025BCAD /* Debug */,
-				8423A11E26B2804A0025BCAD /* Release */,
+				84F9490E26D7332A004FAD65 /* Debug */,
+				84F9490F26D7332A004FAD65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8423A11F26B2804A0025BCAD /* Build configuration list for PBXNativeTarget "ARKitDemo" */ = {
+		84F9491026D7332A004FAD65 /* Build configuration list for PBXNativeTarget "ARKitDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8423A12026B2804A0025BCAD /* Debug */,
-				8423A12126B2804A0025BCAD /* Release */,
+				84F9491126D7332A004FAD65 /* Debug */,
+				84F9491226D7332A004FAD65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8423A12226B2804A0025BCAD /* Build configuration list for PBXNativeTarget "ARKitDemoTests" */ = {
+		84F9491326D7332A004FAD65 /* Build configuration list for PBXNativeTarget "ARKitDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8423A12326B2804A0025BCAD /* Debug */,
-				8423A12426B2804A0025BCAD /* Release */,
+				84F9491426D7332A004FAD65 /* Debug */,
+				84F9491526D7332A004FAD65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8423A12526B2804A0025BCAD /* Build configuration list for PBXNativeTarget "ARKitDemoUITests" */ = {
+		84F9491626D7332A004FAD65 /* Build configuration list for PBXNativeTarget "ARKitDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8423A12626B2804A0025BCAD /* Debug */,
-				8423A12726B2804A0025BCAD /* Release */,
+				84F9491726D7332A004FAD65 /* Debug */,
+				84F9491826D7332A004FAD65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8423A0ED26B280470025BCAD /* Project object */;
+	rootObject = 84F948DE26D73328004FAD65 /* Project object */;
 }
